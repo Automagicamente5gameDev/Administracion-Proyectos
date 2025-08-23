@@ -1,7 +1,10 @@
 # Administracion-Proyectos
 
+- Inicializar git
 - Instalar git lfs
    - `git lfs install`
+   - Para confirmar instalacion:
+      - `git lfs -v`
 - Inicializar LFS .gitattributes en la carpeta del proyecto via comando
    - ```
       git lfs track "*.psd"
