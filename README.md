@@ -5,16 +5,6 @@
    - `git lfs install`
    - Para confirmar instalacion:
       - `git lfs -v`
-- Inicializar LFS .gitattributes en la carpeta del proyecto via comando
-   - ```
-      git lfs track "*.psd"
-      git lfs track "*.png"
-      git lfs track "*.jpg"
-      git lfs track "*.mp4"
-      git lfs track "*.wav"
-      git lfs track "*.fbx"
-      git lfs track "*.tga"
-     ```
 - Crear un archivo **.gitignore** con el siguiente contenido:
    - ```
       # Unity 
@@ -36,4 +26,14 @@
       # Archivos temporales de Mac y Windows
       .DS_Store
       Thumbs.db
+     ```
+- Inicializar LFS .gitattributes en la carpeta del proyecto via comando
+   - ```
+      git lfs track "*.psd"
+      git lfs track "*.png"
+      git lfs track "*.jpg"
+      git lfs track "*.mp4"
+      git lfs track "*.wav"
+      git lfs track "*.fbx"
+      git lfs track "*.tga"
      ```
